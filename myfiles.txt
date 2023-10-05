@@ -15,7 +15,7 @@ git commit -m"<message>"
 
 git push <origin> main // push the code to the github 
 
-git pull <origin> main // any changes done in git hub can be pulled herecle
+git pull <origin> main // any latest changes done in git hub can be pulled here 
 
 
 init command
