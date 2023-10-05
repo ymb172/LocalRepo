@@ -50,7 +50,7 @@ merge branch
 
 
 
-
+git log - print all the recent commits
 
 
 
@@ -63,7 +63,7 @@ case1: staged changes
 case2: commited changes(for one commit)
         git reset  HEAD~1                 // reset to previous changes
 case 3: commited cahnges (for many commits)
-        git reset <-commit hash->           // hash code is in github or use git log in terminal
+        git reset <-commit hash->           // hash code is in github or use (git log) in terminal
         git reset --hard <-commit hash->    // to remove the changes in local machine
 
 
