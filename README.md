@@ -37,7 +37,7 @@
 - `git branch `(to check branch)
 - `git push -M <main>` (to rename branch)
 - `git push origin main `
-- `git push -u origin  main ` // to set upstream - used to always push to main 
+- `git push -u origin  main ` \\ to set upstream - used to always push to main 
 
 
 ---
@@ -70,13 +70,13 @@
 
 ### undoing changes
 1. case 1: staged changes 
-    - git reset <-file name->
-    - git reset
+    - `git reset <-file name->`
+    - `git reset`
 2. case 2: commited changes(for one commit)
-    - git reset  HEAD~1                 // reset to previous changes
+    - `git reset  HEAD~1`               - reset to previous changes
 3. case 3: commited cahnges (for many commits)
-    - git reset <-commit hash->           // hash code is in github or use (git log) in terminal
-    - git reset --hard <-commit hash->    // to remove the changes in local machine
+    - `git reset <-commit hash->`          - hash code is in github or use (git log) in terminal
+    - `git reset --hard <-commit hash->`   - to remove the changes in local machine
 
 
 ---
