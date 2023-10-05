@@ -1,0 +1,33 @@
+//for setting up git 
+git config --global user.name"My Name" // github username
+git config --global user.email"someemail@gmail.com"
+git config --list
+
+
+git clone <link_of_repo>
+
+
+git status // to cheak the status of the changes
+
+
+git add 
+git commit -m"<message>"
+
+git push <origin> main // push the code to the github 
+
+
+
+
+init command
+git init - used to initialize a git repo  - use it when ever you create a new dir
+
+
+
+
+
+
+types of files 
+untracked   - new files that git does not yet track
+modilfied   - changed
+staged      - file is ready to be committed 
+unmodilfied - unchanged
