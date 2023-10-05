@@ -5,7 +5,9 @@
 
 ### For setting up git initally
 `git config --global user.name"My Name" ` - github username
+
 `git config --global user.email"someemail@gmail.com"`
+
 `git config --list`
 
 `git clone <link_of_repo>`
@@ -16,9 +18,10 @@
 
 
 ### comman git commands
-`git status` // to cheak the status of the changes
+`git status` - to cheak the status of the changes
 
 `git add .`
+
 `git commit -m"<message>"`
 
 `git push <origin> main ` - push the code to the github 
