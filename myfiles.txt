@@ -23,8 +23,9 @@ git init - used to initialize a git repo  - use it when ever you create a new di
 git remote add origin<-link->
 git remove -v (to verify remote)
 git branch (to check branch)
-git push -M main (to rename branch)
+git push -M <main> (to rename branch)
 git push origin main 
+git push -u origin  main  // to set upstream - used to always push to main 
 
 
 
