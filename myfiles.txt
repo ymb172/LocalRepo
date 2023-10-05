@@ -40,6 +40,16 @@ git branch -d <-branch name->           (to delete a branch)
 
 
 
+merge branch 
+->way 1
+git diff <-branch name->       (to compare commits, branches, files & more)
+git merge <-branch name->      (to merge 2 branch)
+
+->way 2
+create a PR
+
+
+
 
 
 
