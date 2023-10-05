@@ -46,7 +46,7 @@ git diff <-branch name->       (to compare commits, branches, files & more)
 git merge <-branch name->      (to merge 2 branch)
 
 ->way 2
-create a PR
+create a PR(pull request)
 
 
 
