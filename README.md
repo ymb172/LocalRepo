@@ -34,7 +34,7 @@
 ---
 
 ## init command
-- `git init - used to initialize a git repo`  - use it when ever you create a new dir inside the local machine
+- `git init` - used to initialize a git repo  - use it when ever you create a new dir inside the local machine
 - `git remote add origin<-link->`
 - `git remove -v `(to verify remote)
 - `git branch `(to check branch)
@@ -61,7 +61,7 @@
    - `git diff <-branch name->`     (to compare commits, branches, files & more)
    - `git merge <-branch name->`    (to merge 2 branch)
 
-2. ***way 2***
+2. **way 2**
 
     create a **PR** (pull request)
 
