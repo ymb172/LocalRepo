@@ -31,6 +31,18 @@ git push -u origin  main  // to set upstream - used to always push to main
 
 
 
+Branch commands
+git branch                              (to cheak branch)
+git branch -M main                      (to rename branch)
+git checkout <-branch name->            (to navigate)
+git checkout -b <-new branch name->     (to create new branch)
+git branch -d <-branch name->           (to delete a branch)
+
+
+
+
+
+
 types of files 
 untracked   - new files that git does not yet track
 modilfied   - changed
