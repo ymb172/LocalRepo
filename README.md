@@ -3,7 +3,7 @@
 
 ---
 
-### For setting up git initally
+## For setting up git initally
 `git config --global user.name"My Name" ` - github username
 
 `git config --global user.email"someemail@gmail.com"`
@@ -17,7 +17,7 @@
 ---
 
 
-### comman git commands
+## Comman git commands
 `git status` - to cheak the status of the changes
 
 `git add .`
@@ -33,7 +33,7 @@
 
 ---
 
-### init command
+## init command
 - `git init - used to initialize a git repo`  - use it when ever you create a new dir inside the local machine
 - `git remote add origin<-link->`
 - `git remove -v `(to verify remote)
@@ -46,7 +46,7 @@
 ---
 
 
-### Branch commands
+## Branch commands
 - `git branch`                              (to cheak branch)
 - `git branch -M main `                     (to rename branch)
 - `git checkout <-branch name->`            (to navigate)
@@ -55,12 +55,13 @@
 
 ---
 
-### merge branch 
-1. way 1
+## merge branch 
+
+1. ***way 1**
    - `git diff <-branch name->`       (to compare commits, branches, files & more)
    - `git merge <-branch name->`      (to merge 2 branch)
 
-2. way 2
+2. ***way 2***
     create a **PR** (pull request)
 
 
@@ -71,20 +72,20 @@
 
 
 
-### undoing changes
-1. case 1: staged changes 
+## Undoing changes
+1. **case 1: staged changes** 
     - `git reset <-file name->`
     - `git reset`
-2. case 2: commited changes(for one commit)
+2. **case 2: commited changes(for one commit)**
     - `git reset  HEAD~1`               - reset to previous changes
-3. case 3: commited cahnges (for many commits)
+3. **case 3: commited cahnges (for many commits)**
     - `git reset <-commit hash->`          - hash code is in github or use (git log) in terminal
     - `git reset --hard <-commit hash->`   - to remove the changes in local machine
 
 
 ---
 
-### types of files 
+## Types of files 
 1. untracked   - new files that git does not yet track
 2. modilfied   - changed
 3. staged      - file is ready to be committed 
